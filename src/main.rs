@@ -79,7 +79,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             chrono::offset::Local::now().timestamp(),
         )?;
 
-        Command::new("ssh")
+        Command::new("mosh")
             .arg(host_name.split(' ').take(1).collect::<Vec<&str>>().join(""))
             .spawn()?
             .wait()?;
