@@ -1,15 +1,15 @@
 [package]
-name = "fast-ssh"
-version = "0.3.2"
+name = "fast-mosh"
+version = "0.3.3"  # Increment the version number
 license = "MIT"
-description = "Quicky connect to your servers by navigating through your SSH config."
+description = "A fork of fast-ssh to quickly connect to your servers by navigating through your SSH config, using mosh."
 readme = "README.md"
-homepage = "https://github.com/Julien-R44/fast-ssh"
-repository = "https://github.com/Julien-R44/fast-ssh"
-keywords = ["cli", "tui", "ssh", "ssh-config"]
+homepage = "https://github.com/tiwiex/fast-mosh"
+repository = "https://github.com/tiwiex/fast-mosh"
+keywords = ["cli", "tui", "mosh", "ssh-config"]
 categories = ["command-line-utilities", "config"]
-authors = ["Julien-R44 <julien@ripouteau.com>"]
-edition = "2021"
+authors = ["tiwiex <your.email@example.com>"]
+edition = "2024"
 
 [dependencies]
 tui = { version = "0.19.0", default-features = false, features = ['crossterm'] }
@@ -25,3 +25,4 @@ chrono = "0.4.38"
 sublime_fuzzy = "0.7.0"
 lazy_static = "1.4.0"
 anyhow = "1.0.82"
+
