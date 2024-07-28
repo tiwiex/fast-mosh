@@ -4,7 +4,9 @@
     <b>Connect quickly to your services with Mosh 🚀</b>
     <br/>
     <br/>
-    
+    <a href="https://github.com/tiwiex/fast-mosh/actions/workflows/release.yml">
+        <img src="https://github.com/tiwiex/fast-mosh/actions/workflows/release.yml/badge.svg" />
+    </a>
     <a href="https://crates.io/crates/fast-mosh">
         <img src="https://img.shields.io/crates/v/fast-mosh.svg" />
     </a>
