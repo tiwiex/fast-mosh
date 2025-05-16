@@ -23,6 +23,12 @@
 ***MAKE SURE mosh IS INSTALLED ON YOUR CLIENT AND YOUR SERVER***
 
 For Ubuntu, **run apt install mosh**.
+If you have installed Cargo then run **cargo install fast-mosh --force** (force ensures an update if you already installed fast-mosh)
+Version 0.3.4 addresses an issue in mosh which does not allow scrolling for long outputs. This issue is explained here https://github.com/mobile-shell/mosh/issues/122. In summary: 
+
+**"@RipperSK The root cause of not able to scroll is caused by mosh entering a "alternative screen" mode. It can be disabled using the --no-init flag (see the doc). Just alias mosh='mosh --no-init' and the problem will go away. This comment has been minimized."**
+
+So I have updated the mosh command in main.rs to include arg for --no-init.
 
 Follow a similar instruction for your Linux distro.
 For the Mac, use Home Brew and run 
