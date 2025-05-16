@@ -1,6 +1,6 @@
 [package]
 name = "fast-mosh"
-version = "0.3.3"  # Increment the version number
+version = "0.3.4"  # Increment the version number
 license = "MIT"
 description = "A fork of fast-ssh to quickly connect to your servers by navigating through your SSH config, using mosh."
 readme = "README.md"
@@ -8,7 +8,7 @@ homepage = "https://github.com/tiwiex/fast-mosh"
 repository = "https://github.com/tiwiex/fast-mosh"
 keywords = ["cli", "tui", "mosh", "ssh-config"]
 categories = ["command-line-utilities", "config"]
-authors = ["tiwiex <your.email@example.com>"]
+authors = ["Taiwo Akinosho <tiwiex@gmail.com>"]
 edition = "2021"
 
 [dependencies]
