@@ -80,6 +80,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         )?;
 
         Command::new("mosh")
+            .arg("--no-init")  // Add this flag
             .arg(host_name.split(' ').take(1).collect::<Vec<&str>>().join(""))
             .spawn()?
             .wait()?;
