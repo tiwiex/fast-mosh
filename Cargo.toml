@@ -1,6 +1,6 @@
 [package]
 name = "fast-mosh"
-version = "0.3.4"  # Increment the version number
+version = "0.3.5"  # Increment the version number
 license = "MIT"
 description = "A fork of fast-ssh to quickly connect to your servers by navigating through your SSH config, using mosh."
 readme = "README.md"
